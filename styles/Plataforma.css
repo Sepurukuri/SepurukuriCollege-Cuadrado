@@ -85,18 +85,15 @@ body{
     font-style: italic;
 }
 
-.formulario{
-    background-color: #5b4542;
-    padding: 20px 0px 20px 0px;
-    margin: 0px;
+.container{
+    background-color: #d8ba6b;
+    border: 8px double #5b4542;
+    padding: 20px;
+    width: 400px;
 }
 
-.ingreso-plataforma{
-    font-style: italic;
-    border: 5px #462521 double;
-    background-color: #d8ba6b;
+.mb-3{
     width: 300px;
-    padding: 10px;
 }
 
 .video{
@@ -262,7 +259,7 @@ body{
          background-color: #5b4542;
          color: #c6a149;
          font-style: italic;
-         width: 225px;
+         width: 300px;
          border: 5px double #f4e9cd;
          text-align: left;
          padding: 5px;
