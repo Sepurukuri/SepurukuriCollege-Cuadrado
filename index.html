@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sepurukuri College</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href= "./Bootstrap/css/bootstrap.min.css">
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? family= Poppins & display=swap" rel="hoja de estilo">
@@ -46,33 +47,26 @@
 
         <!--Formulario de contacto-->
 
-        <section id="formulario">
-            <div class="seccion-formulario">
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
                 <h3 class="titulo-formulario">Ayudanos a contactarte:</h3>
                 <br>
-                    <form action="" method="get" enctype="multipart/form-data">
-                        <fieldset class="formulario">
-                        <div>
-                        <br>
-                        <label for="Nombre-y-Apellido-Completo">Nombre y Apellido Completo:</label>
-                        <input type="text" name="Nombre-y-Apellido-Completo">
-                        </div>
-                        <br>
-                        <div>
-                        <label for="Correo-Electronico">Correo Electronico:</label>
-                        <input type="email" name="Correo-Electronico">
-                        </div>
-                        <br>
-                        <div>
-                        <label for="Numero-de-telefono">Numero de telefono:</label>
-                        <input type="number" name="Numero-de-telefono"> 
-                        </div>
-                        <br>
-                        <input type="submit" value="Enviar formulario">
-                        <input type="reset" value="Resetear valores">
-                        </div>
-                        </fieldset>
-        </section>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus consultas:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <br>
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                  </div>
+                    </div>
+                </div> 
+            </div>      
+        </main>
 
         <!--Pie del proyecto-->
 
@@ -91,5 +85,6 @@
                 </div>
         </footer>
     </div>
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

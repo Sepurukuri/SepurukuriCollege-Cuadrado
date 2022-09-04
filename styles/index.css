@@ -11,14 +11,6 @@
 
 /** Etiquetas **/
 
-fieldset{
-    font-style: italic;
-    border: 5px #462521 double;
-    background-color: #efdaa6;
-    padding: 20px;
-    margin: 20px;
-}
-
 iframe{
     width: 1100px;
     height: 315px;
@@ -29,44 +21,12 @@ a{
 }
 
 body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7MAw6O_7pQAoxkSBH8NAEweSpG2rUNl7m4Q&usqp=CAU);
+    background-image: linear-gradient(to right, #efdaa6, #462521);
 }
 
-/** Grids and Flexbox **/
-
-.conteiner{
-    display: flex;
-    display: grid;
-    grid-template-areas: 
-    "header header header header"
-    "nav nav nav nav"
-    "video video video video"
-    "formulario formulario formulario formulario"
-    "footer footer footer footer"
-    ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 180px 60px 375px 415px 140px;
-    grid-row-gap: 30px;
-}
-
-header{
-    grid-area: header;
-}
-
-nav{
-    grid-area: nav;
-}
-
-#video{
-    grid-area: video;
-}
-
-#formulario{
-    grid-area: formulario;
-}
-
-footer{
-    grid-area: footer;
+main{
+    margin: 20px;
+    width: 500px;
 }
 
 /** Ids **/
@@ -93,11 +53,6 @@ footer{
 
 #menu li a:hover{
     background-color: #846827;
-}
-
-#formulario{
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 /** Clases **/
@@ -137,11 +92,15 @@ footer{
     margin-left: 20px;
 }
 
-.seccion-formulario{
+.container{
     background-color: #f4e9cd;
-    padding: 20px 0px 20px 0px;
-    margin: 20px;
-    width: 350px;
+    border: 8px double #462521;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    width: 500px;
 }
 
 .seccion-pie{
@@ -182,38 +141,9 @@ footer{
 /** Media queries **/
 
 @media (max-width:768px){
-    .conteiner{
-        display: grid;
-        grid-template-areas: 
-        "header header header header"
-        "nav nav nav nav"
-        "video video video video"
-        "formulario formulario formulario formulario"
-        "footer footer footer footer"
-        ;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 165px 60px 260px 410px 130px;
-        grid-row-gap: 30px;
-    }
-    
-    header{
-        grid-area: header;
-    }
-    
-    nav{
-        grid-area: nav;
-    }
-    
-    #video{
-        grid-area: video;
-    }
-    
-    #formulario{
-        grid-area: formulario;
-    }
-    
-    footer{
-        grid-area: footer;
+
+    body{
+        background-image: linear-gradient(to left #efdaa6, #462521);
     }
     
     .caja{
@@ -263,6 +193,22 @@ footer{
     #menu li a:hover{
         background-color: #846827;
     }
+
+    main{
+        margin: 10px;
+        width: 300px;
+    }
+
+    .container{
+        background-color: #f4e9cd;
+        border: 5px double #462521;
+        padding: 15px;
+        margin-top: 5px;
+        margin-right: 8px;
+        margin-bottom: 9px;
+        margin-left: 10px;
+        width: 150px;
+    }
     
     .video-presentacion{
         background-color: #f4e9cd;
@@ -274,26 +220,13 @@ footer{
         width: 340px;
         height: 200px;
     }
-
-    fieldset{
-        font-style: italic;
-        border: 5px #462521 double;
-        background-color: #efdaa6;
-    }
-    
-    .seccion-formulario{
-        background-color: #f4e9cd;
-        padding: 20px 0px 20px 0px;
-        margin: 20px;
-        width: 350px;
-    }
     
     .seccion-pie{
         display: flex;
         flex-direction: column;
         background-color: #3B382F;
         margin: 0px;
-        padding: 25px;
+        padding: 15px;
     }
     
     .direccion{
