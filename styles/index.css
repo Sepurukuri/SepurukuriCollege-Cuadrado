@@ -24,40 +24,13 @@ body{
     background-image: linear-gradient(to right, #efdaa6, #462521);
 }
 
-main{
-    margin: 20px;
-    width: 500px;
-}
-
-/** Ids **/
-
-#menu ol{
-    list-style-type: none;
-    background-color: #462521;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-#menu li{
-    display: inline-block;
-    color: #f4e9cd;
-}
-
-#menu li a{
-    color: #E9DFC6;
-    padding: 20px 60px;
-    display: block;
-    text-decoration: none;
-}
-
-#menu li a:hover{
-    background-color: #846827;
+h1{
+    background: linear-gradient(to left, #efdaa6, #462521 );
 }
 
 /** Clases **/
 
-.caja{
+.header-container{
     background-color: #efdaa6;
     padding: 30px;
     border: 8px double #462521;
@@ -66,10 +39,10 @@ main{
     margin-bottom: 18px;
     margin-left: 20px;
 }
- 
+
 .titulo{
     color: #462521;
-    font-size: 40px;
+    font-size: 60px;
     font-family: sans-serif;
     text-align: center;
 }
@@ -81,7 +54,31 @@ main{
     font-style: italic;
 }
 
-.video-presentacion{
+.nav-container ol{
+    list-style-type: none;
+    background-color: #462521;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-container li{
+    display: inline-block;
+    color: #f4e9cd;
+}
+
+.nav-container li a{
+    color: #E9DFC6;
+    padding: 20px 60px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-container li a:hover{
+    background-color: #846827;
+}
+
+.section-container{
     background-color: #f4e9cd;
     border: 8px double #462521;
     text-align: center;
@@ -92,7 +89,7 @@ main{
     margin-left: 20px;
 }
 
-.container{
+.main-container{
     background-color: #f4e9cd;
     border: 8px double #462521;
     padding: 30px;
@@ -114,7 +111,6 @@ main{
 
 .redes{
     text-align: center;
-    text-align: right;
 }
 
 .redes li{
@@ -138,99 +134,125 @@ main{
     text-align: left;
 }
 
-/** Media queries **/
-
 @media (max-width:768px){
 
     body{
         background-image: linear-gradient(to left #efdaa6, #462521);
     }
-    
-    .caja{
-        background-color: #efdaa6;
-        border: 8px double #462521; 
-        padding: 20px;
-        margin-top: 10px;
-        margin-right: 15px;
-        margin-bottom: 18px;
-        margin-left: 20px;
-     }
-     
-     .titulo{
-         color: #462521;
-         font-size: 30px;
-         font-family: sans-serif;
-         text-align: center;
-     }
-     
-     .titulo-2{
-         color: #462521;
-         text-align: center;
-         font-size: 15px;
-         font-style: italic;
-     }
-    
-     #menu ol{
-        list-style-type: none;
-        background-color: #462521;
-        text-align: center;
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    #menu li{
-        display: inline-block;
-        color: #f4e9cd;
-    }
-    
-    #menu li a{
-        color: #E9DFC6;
-        padding: 12px 12px;
-        display: block;
-        text-decoration: none;
-    }
-    
-    #menu li a:hover{
-        background-color: #846827;
-    }
 
-    main{
-        margin: 10px;
-        width: 300px;
-    }
+    /** General **/
 
-    .container{
-        background-color: #f4e9cd;
-        border: 5px double #462521;
-        padding: 15px;
-        margin-top: 5px;
-        margin-right: 8px;
-        margin-bottom: 9px;
-        margin-left: 10px;
-        width: 150px;
-    }
-    
-    .video-presentacion{
-        background-color: #f4e9cd;
-        border: 8px double #462521;
-        text-align: center;
-    }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-    iframe{
-        width: 340px;
-        height: 200px;
-    }
-    
-    .seccion-pie{
-        display: flex;
-        flex-direction: column;
-        background-color: #3B382F;
-        margin: 0px;
-        padding: 15px;
-    }
-    
-    .direccion{
-        color: #E9DFC6;
-        text-align: left;
-    }
+*{
+    font-family: 'poppins';
+}
+
+/** Etiquetas **/
+
+iframe{
+    width: 340px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right, #efdaa6, #462521);
+}
+
+h1{
+    background: linear-gradient(to left, #efdaa6, #462521 );
+}
+
+/** Clases **/
+
+.header-container{
+    background-color: #efdaa6;
+    padding: 15px;
+    border: 5px double #462521;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+}
+
+.titulo{
+    color: #462521;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.titulo-2{
+    color: #462521;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.nav-container ol{
+    list-style-type: none;
+    background-color: #462521;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-container li{
+    display: inline-block;
+    color: #f4e9cd;
+}
+
+.nav-container li a{
+    color: #E9DFC6;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-container li a:hover{
+    background-color: #846827;
+}
+
+.section-container{
+    background-color: #f4e9cd;
+    border: 8px double #462521;
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+}
+
+.main-container{
+    background-color: #f4e9cd;
+    border: 5px double #462521;
+    padding: 15px;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.seccion-pie{
+    display: flex;
+    flex-direction: column;
+    background-color: #3B382F;
+    margin: 0px;
+    padding: 8px;
+}
+
+.direccion{
+    color: #E9DFC6;
+    text-align: left;
+}
+
 }

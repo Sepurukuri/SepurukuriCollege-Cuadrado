@@ -13,78 +13,93 @@
 </head>
 <body>
 
-    <!--Cabeza del proyecto-->
+    <!-- Titulo del proyecto -->
 
-    <div class="conteiner">
-        <header>
-            <div class="caja">
+    <header>
+    <div class="header-container">
+        <div class="row">
+            <div class="col">
                 <h1 class="titulo">Sepurukuri College</h1>
                 <br>
                 <p class="titulo-2">Aprende japones gratis de una manera rápida y sencilla</p>
             </div>
-        </header>
+        </div>
+    </div>
+    </header>
+    <br>
 
-        <!--Menu del proyecto-->
+    <!-- Menu del proyecto -->
 
-        <nav>
-            <div id="menu">
-                <ol>
+    <nav>
+        <div class="nav-container">
+            <div class="row">
+                <div class="col">
+                  <ol>
                     <li><a href="./Pages/Cursos.html">Cursos</a></li>
                     <li><a href="./Pages/Inscripciones.html">Inscripciones</a></li>
                     <li><a href="./Pages/Plataforma.html">Plataforma</a></li>
                     <li><a href="./Pages/Nosotros.html">Sobre Nosotros</a></li>
-                </ol>
+                  </ol>
+                </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <br>
 
-        <!--Video del proyecto-->
-        
-        <section id="video">
-            <div class="video-presentacion">
+    <!-- Video de Bienvenida -->
+
+    <section>
+    <div class="section-container">
+        <div class="row">
+            <div class="col">
                 <iframe width="380" height="230" src="https://www.youtube.com/embed/7o4imyixmJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        </section>
-
-        <!--Formulario de contacto-->
-
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                <h3 class="titulo-formulario">Ayudanos a contactarte:</h3>
-                <br>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus consultas:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <br>
-                    <input class="btn btn-primary" type="submit" value="Enviar">
-                  </div>
-                    </div>
-                </div> 
-            </div>      
-        </main>
-
-        <!--Pie del proyecto-->
-
-        <footer>
-            <div class="seccion-pie">
-                <ul class="redes">
-                    <li><a href="https://es-la.facebook.com/"><img src="Pages/facebook2.png" width="50" height="45"></a></li>
-                    <li><a href="https://www.instagram.com/"><img src="Pages/instagram2.png" width="50" height="45"></a></li>
-                    <li><a href="https://web.whatsapp.com/"><img src="Pages/whatsapp2.jpg" width="50" height="45"></a></li>
-                </ul>
-                <address class="direccion">
-                    Lavalle 5900<br>
-                    sepurukuricollege@gmail.com
-                 </address>
-                 <p class="direccion">Copyright © 2020-2022 Santiago Cuadrado, todos los derechos reservados.</p>>
-                </div>
-        </footer>
+        </div>
     </div>
-    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+    </section>
+    <br>
+
+    <!-- Main del proyecto -->
+
+    <main>
+        <div class="main-container">
+            <div class="row">
+                <div class="col">
+            <h3 class="titulo-formulario">Ayudanos a contactarte:</h3>
+            <br>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo Electronico:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Consultas:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+                <input class="btn btn-primary" type="submit" value="Enviar">
+              </div>
+                </div>
+            </div> 
+        </div>      
+    </main>
+    <br>
+
+    <!--Pie del proyecto-->
+
+    <footer>
+        <div class="seccion-pie">
+            <ul class="redes">
+                <li><a href="https://es-la.facebook.com/"><img src="Pages/facebook2.png" width="50" height="45"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="Pages/instagram2.png" width="50" height="45"></a></li>
+                <li><a href="https://web.whatsapp.com/"><img src="Pages/whatsapp2.jpg" width="50" height="45"></a></li>
+            </ul>
+            <address class="direccion">
+                Lavalle 5900<br>
+                sepurukuricollege@gmail.com
+             </address>
+             <p class="direccion">Copyright © 2020-2022 Santiago Cuadrado, todos los derechos reservados.</p>>
+            </div>
+    </footer>
+</div>
+<script src="./Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
