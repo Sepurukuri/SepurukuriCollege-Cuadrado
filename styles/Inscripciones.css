@@ -123,11 +123,6 @@ body{
     /** General **/
 
 *{
-    padding: 0px;
-    margin: 0px;
-}
-
-*{
     font-family: 'poppins';
 }
 
@@ -154,7 +149,7 @@ body{
 
 .nav-container li a{
     color: #E9DFC6;
-    padding: 5px 10px;
+    padding: 5px 12px;
     display: block;
     text-decoration: none;
 }
