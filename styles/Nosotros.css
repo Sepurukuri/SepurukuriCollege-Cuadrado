@@ -57,7 +57,7 @@ body{
 
 /** Clases **/
 
-.cabeza{
+.header-container{
     background-color: #ebc86e;
     padding: 30px;
     border: 8px double #746235;
@@ -187,7 +187,7 @@ body{
         background-color: #846827;
     }
 
-    .cabeza{
+    .header-container{
         background-color: #ebc86e;
         padding: 15px;
         border: 5px double #746235;

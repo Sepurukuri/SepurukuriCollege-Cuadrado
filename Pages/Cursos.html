@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/Cursos.css">
+    <link rel="stylesheet" href= "../Bootstrap/css/bootstrap.min.css">
     <enlace rel="preconectar" href="https://fonts.googleapis.com">
         <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
         <enlace href="https: //fonts.googleapis.com/css2? family= Poppins & display=swap" rel="hoja de estilo">
@@ -14,96 +15,102 @@
 
     <!--Menu del proyecto-->
 
-    <div id="conteiner">
-    <nav id="menu">
-    <ol>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/Inscripciones.html">Inscripciones</a></li>
-        <li><a href="../pages/Plataforma.html">Plataforma</a></li>
-        <li><a href="../pages/Nosotros.html">Sobre Nosotros</a></li>
-    </ol>
+    <nav>
+        <div class="nav-container">
+            <div class="row">
+                <div class="col">
+                    <ol>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../pages/Inscripciones.html">Inscripciones</a></li>
+                        <li><a href="../pages/Plataforma.html">Plataforma</a></li>
+                        <li><a href="../pages/Nosotros.html">Sobre Nosotros</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
     </nav>
-    </div>
-    <br>
     <br>
 
-    <!--Cuerpo del proyecto-->
+    <!--Titulo del proyecto-->
 
-    <header class="cabeza">
-    <h1  class="titulo">Cursos</h1>
-    <br>
+    <header>
+        <div class="header-container">
+            <div class="row">
+                <div class="col">
+                    <h1  class="titulo">Cursos</h1>
+                </div>
+            </div>
+        </div>
     </header>
     <br>
 
     <!--Cursos-->
-    
+
     <main>
-    <div class="cursos">
-      <h3 class="cursos-titulo">Romaji</h3>
-        <br>
-        <img class="imagenes1" src="./romaji.jpg" alt="oficinas" height="250" width="600">
-        <br>
-        <br>
-        <p>Se refiere en grandes rasgos al alfabeto latino. En Occidente, se suele emplear este término
-        para referirse a la escritura de la lengua japonesa en letras romanas o latinas en contraste con
-        la mezcla habitual de kanji, hiragana y katakana. El curso tiene una duracion de 18 meses.</p>
-    </div>
-    <br>
-    <br>
-    <div class="cursos">
-      <h3 class="cursos-titulo">Hiragana</h3>
-        <br>
-        <img class="imagenes1" src="./Hiragana.jpg" alt="oficinas" height="250" width="600">
-        <br>
-        <br>
-        <p>El hiragana se usa para escribir mayoritariamente todas las inflexiones y modificaciones de los verbos,
-        adjetivos, adverbios y partículas. Por ejemplo, el verbo 'nomu' que significa 'beber' se escribe '飲む'
-        combinando el kanji '飲' (se lee 'no') con el hiragana 'む' (mu). El curso tiene una duracion de 12 meses.</p>
-    </div>
-    <br>
-    <br>
-    <div class="cursos">
-      <h3 class="cursos-titulo">Katacana</h3>
-        <br>
-        <img class="imagenes1" src="./Katakana.jpg" alt="oficinas" height="250" width="600">
-        <br>
-        <br>
-        <p>El katakana (片仮名 o カタカナ) es uno de los dos silabarios empleados en la escritura japonesa, junto con el hiragana.
-        Su invención se atribuye al monje Kūkai, o Kobo Daishi. También se suele usar el vocablo katakana
-        para referirse a cualquiera de los caracteres de dicho silabario. El curso tiene una duracion de 12 meses.</p>
-    </div>
-        <br>
-        <br>
-    <div class="cursos">
-        <br>
-          <h3 class="cursos-titulo">Kanji</h3>
-        <br>
-        <img class="imagenes1" src="./kanji.jpg" alt="oficinas" height="250" width="600">
-        <br>
-        <br>
-        <p>El kanji es uno de los tres sistemas de escritura japonesa, cuya funcionalidad es expresar conceptos, y para ello existen
-        unas reglas generales. Además, a cada kanji le corresponde un significado. En este curso y de manera sencilla, aprenderás
-        a identificar y escribir estos caracteres. El curso tiene una duracion de 18 meses.</p>
-    </div>
-    </main>
-        <br>
-        <br>
-
-        <!--Pie del proyecto-->
-
-        <footer>
-            <div class="seccion-pie">
-                <ul class="redes">
-                    <li><a href="https://es-la.facebook.com/"><img src="../Pages/facebook2.png" width="50" height="45"></a></li>
-                    <li><a href="https://www.instagram.com/"><img src="../Pages/instagram2.png" width="50" height="45"></a></li>
-                    <li><a href="https://web.whatsapp.com/"><img src="../Pages/whatsapp2.jpg" width="50" height="45"></a></li>
-                </ul>
-                <address class="direccion">
-                    Lavalle 5900<br>
-                    sepurukuricollege@gmail.com
-                 </address>
-                 <p class="direccion">Copyright © 2020-2022 Santiago Cuadrado, todos los derechos reservados.</p>>
+        <div class="main-container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./romaji.jpg" class="card-img-top" alt="oficinas">
+                        <div class="card-body">
+                          <h5 class="card-title">Romaji</h5>
+                          <p class="card-text">Se refiere en grandes rasgos al alfabeto latino. En Occidente, se suele emplear este término
+                            para referirse a la escritura de la lengua japonesa en letras romanas o latinas en contraste con
+                            la mezcla habitual de kanji, hiragana y katakana. El curso tiene una duracion de 18 meses.</p>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./Hiragana.jpg" class="card-img-top" alt="oficinas">
+                        <div class="card-body">
+                          <h5 class="card-title">Hiragana</h5>
+                          <p class="card-text">El hiragana se usa para escribir mayoritariamente todas las inflexiones y modificaciones de los verbos,
+                            adjetivos, adverbios y partículas. Por ejemplo, el verbo 'nomu' que significa 'beber' se escribe '飲む'
+                            combinando el kanji '飲' (se lee 'no') con el hiragana 'む' (mu). El curso tiene una duracion de 12 meses.</p>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./Katakana.jpg" class="card-img-top" alt="oficinas">
+                        <div class="card-body">
+                          <h5 class="card-title">Katacana</h5>
+                          <p class="card-text">El katakana (片仮名 o カタカナ) es uno de los dos silabarios empleados en la escritura japonesa, junto con el hiragana.
+                            Su invención se atribuye al monje Kūkai, o Kobo Daishi. También se suele usar el vocablo katakana
+                            para referirse a cualquiera de los caracteres de dicho silabario. El curso tiene una duracion de 12 meses.</p>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./kanji.jpg" class="card-img-top" alt="oficinas">
+                        <div class="card-body">
+                          <h5 class="card-title">Kanji</h5>
+                          <p class="card-text">El kanji es uno de los tres sistemas de escritura japonesa, cuya funcionalidad es expresar conceptos, y para ello existen
+                            unas reglas generales. Además, a cada kanji le corresponde un significado. En este curso y de manera sencilla, aprenderás
+                            a identificar y escribir estos caracteres. El curso tiene una duracion de 18 meses.</p>
+                        </div>
+                      </div>
                 </div>
-        </footer>
+            </div>
+        </div>
+    </main>
+    <br>
+
+    <!--Pie del proyecto-->
+
+    <footer>
+        <div class="seccion-pie">
+            <ul class="redes">
+                <li><a href="https://es-la.facebook.com/"><img src="../Pages/facebook2.png" width="50" height="45"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="../Pages/instagram2.png" width="50" height="45"></a></li>
+                <li><a href="https://web.whatsapp.com/"><img src="../Pages/whatsapp2.jpg" width="50" height="45"></a></li>
+            </ul>
+            <address class="direccion">
+                Lavalle 5900<br>
+                sepurukuricollege@gmail.com
+             </address>
+             <p class="direccion">Copyright © 2020-2022 Santiago Cuadrado, todos los derechos reservados.</p>>
+            </div>
+    </footer>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
