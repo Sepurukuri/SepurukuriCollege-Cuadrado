@@ -33,9 +33,20 @@ header{
     justify-content: center;
 }
 
+main{
+    background-color: #f4e9cd;
+    border: 8px double #462521;
+    padding: 30px;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-bottom: 18px;
+    margin-left: 60px;
+    width: 500px;
+}
+
 /** Clases **/
 
-.header-container{
+.header{
     background-color: #efdaa6;
     border: 8px double #462521;
     width: 1200px;
@@ -60,19 +71,11 @@ header{
     font-style: italic;
 }
 
-.nav-container{
-    width: 1250px
+.row-1{
+    width: 1252px;
 }
 
-.main-container{
-    width: 1200px
-}
-
-.section-container{
-    width: 1200px
-}
-
-.nav-container ol{
+.nav ol{
     list-style-type: none;
     background-color: #462521;
     text-align: center;
@@ -80,23 +83,23 @@ header{
     margin: 0px;
 }
 
-.nav-container li{
+.nav li{
     display: inline-block;
     color: #f4e9cd;
 }
 
-.nav-container li a{
+.nav li a{
     color: #E9DFC6;
     padding: 20px 60px;
     display: block;
     text-decoration: none;
 }
 
-.nav-container li a:hover{
+.nav li a:hover{
     background-color: #846827;
 }
 
-.section-container{
+.section{
     background-color: #f4e9cd;
     border: 8px double #462521;
     text-align: center;
@@ -105,17 +108,6 @@ header{
     margin-right: 15px;
     margin-bottom: 18px;
     margin-left: 20px;
-}
-
-.main-container{
-    background-color: #f4e9cd;
-    border: 8px double #462521;
-    padding: 30px;
-    margin-top: 10px;
-    margin-right: 15px;
-    margin-bottom: 18px;
-    margin-left: 20px;
-    width: 500px;
 }
 
 .seccion-pie{
@@ -185,7 +177,7 @@ h1{
 
 /** Clases **/
 
-.header-container{
+.header{
     background-color: #efdaa6;
     padding: 15px;
     border: 5px double #462521;
@@ -193,18 +185,6 @@ h1{
     margin-right: 8px;
     margin-bottom: 9px;
     margin-left: 10px;
-}
-
-.nav-container{
-    width: 410px
-}
-
-.main-container{
-    width: 300px
-}
-
-.section-container{
-    width: 385px
 }
 
 .titulo{
@@ -221,7 +201,7 @@ h1{
     font-style: italic;
 }
 
-.nav-container ol{
+.nav ol{
     list-style-type: none;
     background-color: #462521;
     text-align: center;
@@ -229,23 +209,23 @@ h1{
     margin: 0px;
 }
 
-.nav-container li{
+.nav li{
     display: inline-block;
     color: #f4e9cd;
 }
 
-.nav-container li a{
+.nav li a{
     color: #E9DFC6;
     padding: 5px 10px;
     display: block;
     text-decoration: none;
 }
 
-.nav-container li a:hover{
+.nav li a:hover{
     background-color: #846827;
 }
 
-.section-container{
+.section{
     background-color: #f4e9cd;
     border: 8px double #462521;
     text-align: center;
@@ -256,7 +236,7 @@ h1{
     margin-left: 10px;
 }
 
-.main-container{
+main{
     background-color: #f4e9cd;
     border: 5px double #462521;
     padding: 15px;
