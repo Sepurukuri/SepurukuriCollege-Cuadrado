@@ -26,7 +26,11 @@ header{
 
 /** Clases **/
 
-.nav-container ol{
+.row-1{
+    width: 1252px;
+}
+
+.nav ol{
     list-style-type: none;
     background-color: #462521;
     text-align: center;
@@ -34,23 +38,23 @@ header{
     margin: 0px;
 }
 
-.nav-container li{
+.nav li{
     display: inline-block;
     color: #f4e9cd;
 }
 
-.nav-container li a{
+.nav li a{
     color: #E9DFC6;
     padding: 20px 60px;
     display: block;
     text-decoration: none;
 }
 
-.nav-container li a:hover{
+.nav li a:hover{
     background-color: #846827;
 }
 
-.header-container{
+.header{
     background-color: #efe4c8;
     padding: 30px;
     border: 8px double #a88022;
@@ -77,6 +81,10 @@ header{
 .card-body{
     background-color: #efe6d0;
     border: 8px double #3B382F;
+}
+
+.card{
+    padding: 20px;
 }
 
 .seccion-pie{
@@ -129,7 +137,7 @@ body{
 
 /** Clases **/
 
-.nav-container ol{
+.nav ol{
     list-style-type: none;
     background-color: #462521;
     text-align: center;
@@ -137,23 +145,23 @@ body{
     margin: 0px;
 }
 
-.nav-container li{
+.nav li{
     display: inline-block;
     color: #f4e9cd;
 }
 
-.nav-container li a{
+.nav li a{
     color: #E9DFC6;
     padding: 5px 10px;
     display: block;
     text-decoration: none;
 }
 
-.nav-container li a:hover{
+.nav li a:hover{
     background-color: #846827;
 }
 
-.header-container{
+.header{
     background-color: #efdaa6;
     padding: 30px;
     border: 5px double #a88022;
