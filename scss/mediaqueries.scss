@@ -1,0 +1,113 @@
+@media (max-width:768px){
+    #conteiner{
+        display: grid;
+        grid-template-areas: 
+        "menu menu menu menu"
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 60px;
+        grid-row-gap: 30px;
+    }
+    
+    #menu ol{
+        list-style-type: none;
+        background-color: #462521;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #menu li{
+        display: inline-block;
+        color: #f4e9cd;
+    }
+    
+    #menu li a{
+        color: #E9DFC6;
+        padding: 12px 12px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    #menu li a:hover{
+        background-color: #846827;
+    }
+
+    .header{
+        background-color: #ebc86e;
+        padding: 15px;
+        border: 5px double #746235;
+        margin-top: 5px;
+        margin-right: 7px;
+        margin-bottom: 9px;
+        margin-left: 10px;
+        width: 300px;
+    }
+     
+     .titulo{
+         color: #462521;
+         font-size: 30px;
+         font-family: sans-serif;
+         text-align: left;
+    }
+     
+     .subtitulo{
+         color: #462521;
+         text-align: left;
+         font-size: 15px;
+         font-style: italic;
+    }
+
+    .imagenes1{
+        width: 350px;
+        height: 450px;
+    }
+    
+    .imagenes{
+        display: flex;
+        background-color: #dfba63;
+        border: solid 5px #746235;
+        padding: 0px;
+        margin: 0px;
+        width: 380px;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    
+    .hijos{
+        border: solid 4px #746235;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .formulario{
+        font-style: italic;
+        border: 5px #462521 double;
+        background-color: #efdaa6;
+        padding: 20px;
+        margin: 20px;
+        width: 300px;
+        height: 460px;
+    }
+    
+    .titulo-formulario{
+        color: #28262c;
+        font-family: sans-serif;
+        padding: 20px;
+    }
+    
+    .seccion-pie{
+        display: flex;
+        flex-direction: column;
+        background-color: #3B382F;
+        margin: 0px;
+        padding: 25px;
+    }
+    
+    .direccion{
+        color: #E9DFC6;
+        text-align: left;
+    }
+}
