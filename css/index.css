@@ -29,6 +29,7 @@ h1{
 }
 
 header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbtQrme1yRsO_hqr4uJgwPKnWhh5z3N5RNQ&usqp=CAU);
     display: flex;
     justify-content: center;
 }

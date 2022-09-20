@@ -49,17 +49,19 @@
 
 .imagenes {
   display: flex;
-  background-color: #dfba63;
-  border: solid 5px #746235;
+  background-color: #e2ca93;
+    border: solid 5px #c0aa72;
   padding: 0px;
   margin: 0px;
-  width: 950px;
+  width: 530px;
   text-align: center;
   flex-direction: column;
   flex-wrap: wrap;
   margin: 10px; }
   .imagenes .imagenes1 {
-    width: 950px; }
+    width: 500px;
+    height: 500px;
+   }
   .imagenes .hijos {
     border: solid 4px #746235;
     padding: 0px;
@@ -159,14 +161,14 @@ body {
     font-style: italic; }
   .imagenes1 {
     width: 350px;
-    height: 450px; }
+    height: 350px; }
   .imagenes {
     display: flex;
     background-color: #dfba63;
     border: solid 5px #746235;
     padding: 0px;
     margin: 0px;
-    width: 380px;
+    width: 500px;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
