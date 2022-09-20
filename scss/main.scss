@@ -1,19 +1,17 @@
 .imagenes{
-    display: flex;
+    @include flexbox;
     background-color: #dfba63;
     border: solid 5px #746235;
     padding: 0px;
     margin: 0px;
     width: 950px;
     text-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 10px;
 .imagenes1{
     width: 950px;
 }
 .hijos{
-    border: solid 4px #746235;
+    border: solid 4px map-get($color , color-secundario);
     padding: 0px;
     margin: 0px;
 }

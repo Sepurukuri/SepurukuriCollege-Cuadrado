@@ -1,20 +1,20 @@
 .header{
     background-color: #ebc86e;
     padding: 30px;
-    border: 8px double #746235;
+    border: 8px double map-get($color , color-secundario);
     margin-top: 10px;
     margin-right: 15px;
     margin-bottom: 18px;
     margin-left: 20px;
     width: 600px;
     h1{
-        color: #462521;
+        color: map-get($color , color-principal);
         font-size: 40px;
         font-family: sans-serif;
         text-align: left;
     }
     h3{
-        color: #462521;
+        color: map-get($color , color-principal);
         text-align: left;
         font-size: 20px;
         font-style: italic;
