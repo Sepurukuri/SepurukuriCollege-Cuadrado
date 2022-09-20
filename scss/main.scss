@@ -1,14 +1,15 @@
 .imagenes{
     @include flexbox;
-    background-color: #dfba63;
-    border: solid 5px #746235;
+    background-color: #e2ca93;
+    border: solid 5px #c0aa72;
     padding: 0px;
     margin: 0px;
-    width: 950px;
+    width: 900px;
     text-align: center;
     margin: 10px;
 .imagenes1{
-    width: 950px;
+    width: 500px;
+    height: 500px;
 }
 .hijos{
     border: solid 4px map-get($color , color-secundario);
