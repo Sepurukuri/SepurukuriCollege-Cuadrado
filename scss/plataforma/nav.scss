@@ -1,4 +1,8 @@
-#menu ol{
+.row-1{
+    width: 1252px;
+}
+
+.nav ol{
     list-style-type: none;
     background-color: #462521;
     text-align: center;
@@ -6,18 +10,18 @@
     margin: 0px;
 }
 
-#menu li{
+.nav li{
     display: inline-block;
     color: #f4e9cd;
 }
 
-#menu li a{
+.nav li a{
     color: #E9DFC6;
     padding: 20px 60px;
     display: block;
     text-decoration: none;
 }
 
-#menu li a:hover{
+.nav li a:hover{
     background-color: #846827;
 }

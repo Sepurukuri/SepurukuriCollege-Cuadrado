@@ -1,33 +1,35 @@
-footer{
-    .seccion-pie{
-        background-color: #b58f1c;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0px;
-        padding: 40px;
+.seccion-pie{
+    background-color: #3B382F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 40px;
 }
-address{
-    color: #E9DFC6;
-    text-align: left;
-}
+
 .redes{
     text-align: center;
-    text-align: right;
 }
-li{
+
+.redes li{
     padding: 0px;
     display: inline-block;
 }
-a{
+
+.redes li a{
     color: #E9DFC6;
     padding: 5px 5px;
     text-decoration: none;
     display: block;
 }
-a:hover{
-    background-color: #322d1f;
+
+.redes li a:hover{
+    background-color: #846827;
 }
+
+.direccion{
+    color: #E9DFC6;
+    text-align: left;
 }
 
 
