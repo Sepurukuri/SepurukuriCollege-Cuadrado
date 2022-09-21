@@ -1,5 +1,5 @@
 .seccion-pie{
-    background-color: #5b4542;
+    background-color: #3B382F;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,14 +7,8 @@
     padding: 40px;
 }
 
-.direccion{
-    color: #E9DFC6;
-    text-align: left;
-}
-
 .redes{
     text-align: center;
-    text-align: right;
 }
 
 .redes li{
@@ -31,4 +25,9 @@
 
 .redes li a:hover{
     background-color: #846827;
+}
+
+.direccion{
+    color: #E9DFC6;
+    text-align: left;
 }
