@@ -1,0 +1,27 @@
+.row-1{
+    width: 1260px;
+}
+
+.nav ol{
+    list-style-type: none;
+    background-color: #462521;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav li{
+    display: inline-block;
+    color: #f4e9cd;
+}
+
+.nav li a{
+    color: #E9DFC6;
+    padding: 20px 60px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #846827;
+}

@@ -1,0 +1,18 @@
+.cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-body{
+    background-color: #efe6d0;
+    border: 8px double #3B382F;
+}
+
+.card{
+    padding: 20px;
+}
+
+img{
+    border: 8px double #3B382F;
+}

@@ -1,5 +1,7 @@
 .imagenes{
-    @include flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #e2ca93;
     border: solid 5px #c0aa72;
     padding: 0px;
@@ -12,7 +14,7 @@
     height: 500px;
 }
 .hijos{
-    border: solid 4px map-get($color , color-secundario);
+    border: solid 4px #746235;
     padding: 0px;
     margin: 0px;
 }
