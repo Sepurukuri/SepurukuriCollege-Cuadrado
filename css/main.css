@@ -22,7 +22,7 @@
   background-color: #846827; }
 
 .nosotros {
-  background-color: #ebc86e;
+  background-color: #e6d3a3;
   padding: 30px;
   border: 8px double #746235;
   margin-top: 10px;
@@ -45,33 +45,32 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: #e2ca93;
-  border: solid 5px #c0aa72;
+  background-color: #e4d8bc;
   padding: 0px;
-  margin: 0px;
-  width: 900px;
   text-align: center;
   margin: 10px; }
-  .imagenes .imagenes1 {
-    width: 500px;
-    height: 500px; }
-  .imagenes .hijos {
-    border: solid 4px #746235;
-    padding: 0px;
-    margin: 0px; }
 
-.formulario {
+.imagenes1 {
+  width: 500px;
+  height: 500px;
+  padding: 20px; }
+
+.hijos {
+  padding: 20px;
+  border: 8px double; }
+
+.formulario-nosotros {
   font-style: italic;
   border: 5px #462521 double;
   background-color: #efdaa6;
   padding: 20px;
   margin: 20px;
-  width: 800px;
-  height: 450px; }
-  .formulario .titulo-formulario {
-    color: #28262c;
-    font-family: sans-serif;
-    padding: 20px; }
+  width: 900px; }
+
+.tituloformulario {
+  color: #28262c;
+  font-family: sans-serif;
+  padding: 20px; }
 
 .seccion-pie {
   background-color: #3B382F;
@@ -202,7 +201,7 @@
   font-family: 'poppins'; }
 
 /** Etiquetas **/
-iframe {
+.iframe {
   width: 1100px;
   height: 315px; }
 
@@ -211,9 +210,6 @@ a {
 
 body {
   background-image: linear-gradient(to right, #efdaa6, #462521); }
-
-h1 {
-  background: linear-gradient(to left, #efdaa6, #462521); }
 
 #headerImagen {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbtQrme1yRsO_hqr4uJgwPKnWhh5z3N5RNQ&usqp=CAU);
@@ -231,6 +227,7 @@ h1 {
   margin-left: 0px; }
 
 .titulo {
+  background: linear-gradient(to left, #efdaa6, #462521);
   color: #462521;
   font-size: 60px;
   font-family: sans-serif;
@@ -265,7 +262,7 @@ h1 {
 .nav li a:hover {
   background-color: #846827; }
 
-main {
+.index {
   background-color: #f4e9cd;
   border: 8px double #462521;
   padding: 30px;
@@ -522,7 +519,7 @@ main {
 .card {
   padding: 20px; }
 
-img {
+.img {
   border: 8px double #3B382F; }
 
 .seccion-pie {
@@ -856,7 +853,7 @@ img {
   font-family: 'poppins'; }
 
 /** Etiquetas **/
-textarea {
+.textarea {
   border: solid; }
 
 #bodyPlataforma {

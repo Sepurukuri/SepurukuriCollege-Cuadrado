@@ -2,20 +2,18 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #e2ca93;
-    border: solid 5px #c0aa72;
+    background-color: #e4d8bc;
     padding: 0px;
-    margin: 0px;
-    width: 900px;
     text-align: center;
     margin: 10px;
+}
 .imagenes1{
     width: 500px;
     height: 500px;
+    padding: 20px;
 }
 .hijos{
-    border: solid 4px #746235;
-    padding: 0px;
-    margin: 0px;
+    padding: 20px;
+    border: 8px double;
 }
-}
+
