@@ -33,8 +33,7 @@
   .nosotros h1 {
     color: #462521;
     font-size: 40px;
-    font-family: sans-serif;
-    text-align: left; }
+    font-family: sans-serif; }
   .nosotros h3 {
     color: #462521;
     text-align: left;
@@ -435,21 +434,25 @@ body {
     text-decoration: none; }
   .nav li a:hover {
     background-color: #846827; }
+  header {
+    display: flex;
+    justify-content: left; }
   .cursos {
     background-color: #efe4c8;
-    padding: 0px;
-    margin: 0px;
-    border: #a88022; }
+    border: 4px double #a88022;
+    width: 300px; }
   .titulo-cursos {
     color: #c09b46;
-    font-size: 25px;
-    font-family: sans-serif; }
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center; }
+  .curso {
+    display: flex;
+    flex-direction: column; }
   .card-body {
     background-color: #efe6d0;
     border: 4px double #3B382F; }
   .card {
-    display: flex;
-    flex-direction: row;
     padding: 10px; }
   .img {
     border: 4px double #3B382F; }
@@ -510,6 +513,10 @@ body {
 .nav li a:hover {
   background-color: #846827; }
 
+header {
+  display: flex;
+  justify-content: center; }
+
 .cursos {
   background-color: #efe4c8;
   padding: 30px;
@@ -525,6 +532,10 @@ body {
   font-size: 50px;
   font-family: sans-serif;
   text-align: center; }
+
+.curso {
+  display: flex;
+  flex-direction: column; }
 
 .card-body {
   background-color: #efe6d0;
@@ -920,8 +931,9 @@ body {
 
 .plataforma {
   background-color: #3d2e2c;
-  padding: 10px;
   border: 8px double #846827;
+  width: 1200px;
+  padding: 40px;
   margin-top: 10px;
   margin-right: 0px;
   margin-bottom: 18px;
@@ -931,11 +943,16 @@ body {
   color: #c6a149;
   font-size: 40px;
   font-family: sans-serif;
-  text-align: left; }
+  text-align: center; }
 
 .subtitulo-plataforma {
+  background-color: #3d2e2c;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+  width: 1000px;
   color: #c6a149;
-  text-align: left;
   font-size: 20px;
   font-style: italic; }
 
